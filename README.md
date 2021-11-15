@@ -2,7 +2,7 @@
 
 Demo of Power Apps + Custom Vision Object Detection 
 
-### Prerequisites
+### Prerequisites 📝
 
 * [Custom Vision](customvision.ai) Object Detection Project:
   * [Quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector#create-a-new-project)
@@ -11,7 +11,7 @@ Demo of Power Apps + Custom Vision Object Detection
 * Access to Power Apps + premium connectors:
   * [Developer Plan](https://powerapps.microsoft.com/en-us/developerplan)
  
-### Setup Power App
+### Setup Power App 🔧
 
 * [Import Power Apps solution](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/import-update-export-solutions) in this repository.
 * Replace global variables
@@ -20,8 +20,13 @@ Demo of Power Apps + Custom Vision Object Detection
   
 <img width="1413" alt="Screen capture from Power Apps" src="https://user-images.githubusercontent.com/1610195/141732628-90e33a6d-a245-4023-baf6-d320ae990571.png">
 
-### Using the Power App
+### Using the Power App 🤹
 
 * Select an image to upload within the application and press the **Detect Objects** button to show the bounding boxes around the image and the object classifications.
 
 <img width="1014" alt="Application Demo" src="https://user-images.githubusercontent.com/1610195/141733329-9d02530f-8770-4300-a9c4-128fba3d4c4a.png">
+
+### Additional Resources 🎁
+* [Custom Vision Connector](https://docs.microsoft.com/en-us/connectors/cognitiveservicescustomvision/)
+* [Custom Vision Quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector#create-a-new-project)
+* [Cognitive Services using Custom Connectors](https://powerapps.microsoft.com/ca-es/blog/cognitive-services-with-powerapps-using-custom-connectors) (Older blog, but shows Power Apps components for services)
