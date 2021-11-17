@@ -2,6 +2,8 @@
 
 Demo of Power Apps + Custom Vision Object Detection 
 
+<img width="520" alt="Architecture Diagram" src="https://user-images.githubusercontent.com/1610195/142134341-cf0ad2e5-7702-48a3-8615-3698313f3da4.png">
+
 ### Prerequisites 📝
 
 * [Custom Vision](customvision.ai) Object Detection Project:
@@ -24,7 +26,11 @@ Demo of Power Apps + Custom Vision Object Detection
 
 * Select an image to upload within the application and press the **Detect Objects** button to show the bounding boxes around the image and the object classifications.
 
+<br>
+
 <img width="1014" alt="Application Demo" src="https://user-images.githubusercontent.com/1610195/141733329-9d02530f-8770-4300-a9c4-128fba3d4c4a.png">
+
+<br>
 
 ### Additional Resources 🎁
 * [Custom Vision Connector](https://docs.microsoft.com/en-us/connectors/cognitiveservicescustomvision/)
