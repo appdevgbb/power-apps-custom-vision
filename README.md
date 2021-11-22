@@ -8,19 +8,30 @@ Demo of Power Apps + Custom Vision Object Detection
 
 * [Custom Vision](customvision.ai) Object Detection Project:
   * [Quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector#create-a-new-project)
-  * Train your models and publish your Prediction API (note the published name).
+  * Train your models
+  * Publish the most recent iteration of the Prediction API and note the **published-name** on the **Performance** page.
   * Under the **Settings** menu, also note the Project ID.
 * Access to Power Apps + premium connectors:
   * [Developer Plan](https://powerapps.microsoft.com/en-us/developerplan)
+* Create Azure Blob Storage container for images
+  * [Quickstart](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) 
  
 ### Setup Power App 🔧
 
 * [Import Power Apps solution](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/import-update-export-solutions) in this repository.
-* Replace global variables
-  * In **App** > **OnStart**, set the published name of the Prediction API and the project ID from Custom Vision:  
+* When you import the solution, it will prompt for creation of connections for Azure Blob Storage and Custom Vision. Create the connections and be sure they are selected.
+* When you open the application, it will also ask you to allow access to these connections.
+* Replace global variables:
+  * Open the Custom Vision application in Power Apps. In **App** > **OnStart**, set the published name of the Prediction API, the project ID from Custom Vision, the name of the Azure Blob Storage instance, and the path of folder where the images are contained. 
   * Save the Canvas Application, close and reopen the application to refresh the global variables.
-  
-<img width="1413" alt="Screen capture from Power Apps" src="https://user-images.githubusercontent.com/1610195/141732628-90e33a6d-a245-4023-baf6-d320ae990571.png">
+ 
+<br>
+
+<img width="536" alt="Screen capture from Custom Vision Portal" src="https://user-images.githubusercontent.com/1610195/142933683-f9f5eafe-32b9-4383-8875-842a7a7aa89b.png">
+     
+<br>
+
+<img width="1429" alt="Screen capture from Power Apps Variables" src="https://user-images.githubusercontent.com/1610195/142933782-243cdd25-480e-472f-9635-f73dbbd0e9e7.png">
 
 ### Using the Power App 🤹
 
