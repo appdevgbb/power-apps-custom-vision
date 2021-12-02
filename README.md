@@ -39,7 +39,7 @@ Demo of Power Apps + Custom Vision Object Detection
 
 <br>
 
-<img width="1014" alt="Application Demo" src="https://user-images.githubusercontent.com/1610195/141733329-9d02530f-8770-4300-a9c4-128fba3d4c4a.png">
+![Application Demo](https://user-images.githubusercontent.com/1610195/144518933-a198926e-7bc5-444e-a0c5-2a45a2a5514e.png)
 
 <br>
 
