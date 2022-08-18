@@ -2,7 +2,7 @@
 
 Demo of Power Apps + Custom Vision Object Detection 
 
-<img width="520" alt="Architecture Diagram" src="https://user-images.githubusercontent.com/1610195/142134341-cf0ad2e5-7702-48a3-8615-3698313f3da4.png">
+<img width="800" alt="Architecture Diagram" src="https://user-images.githubusercontent.com/1610195/185467282-f685a2c7-3983-4b9e-a12d-cd4754dc3cb7.png">
 
 ### Prerequisites 📝
 
